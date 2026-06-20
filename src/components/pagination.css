@@ -5,15 +5,15 @@
   gap: 16px; 
   padding: 40px 0;
   user-select: none;
-  width: max-content; /* 👈 Prevents buttons from expanding across the whole screen */
-  margin: 0 auto;     /* 👈 Keeps the entire block centered horizontally */
+  width: max-content; 
+  margin: 0 auto; 
 }
 
 .pagination button {
   border: none;
   background: none;
   cursor: pointer;
-  display: inline-flex; /* 👈 Changed from flex to inline-flex for tight spacing */
+  display: inline-flex; 
   align-items: center;
   justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
